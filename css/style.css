@@ -76,6 +76,10 @@ a {
 .mm-title p {
 	max-width: 650px;
 }
+.social-img {
+	max-width: 120px;
+}
+
 /* COLORS */
 .mm-bg-1 {
 	background-color: #363636;
@@ -92,6 +96,10 @@ a {
 .mm-bg-5 {
 	background-color: #161C3B;
 }
+.mm-bg-6 {
+	background-color: #00439C;
+}
+
 
 
 /* TEXT COLORS */
