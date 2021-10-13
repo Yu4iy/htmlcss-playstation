@@ -63,6 +63,17 @@ li {
 	border-bottom: 2px solid #0072CE ;
 	opacity: 1;
 }
+.mm-card {
+	border: none;
+}
+.mm-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+.mm-title p {
+	max-width: 650px;
+}
 /* COLORS */
 .mm-bg-1 {
 	background-color: #363636;
