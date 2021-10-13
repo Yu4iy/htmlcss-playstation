@@ -1,0 +1,29 @@
+li {
+	list-style: none;
+}
+.mm-top-logo {
+	width: 100%;
+	max-width: 85px;
+}
+.mm-btn {
+	padding: 10px 14px;
+	border-radius: 4rem;
+	border: none;
+}
+.mm-serch-btn {
+	border: none;
+	background-color: transparent;
+}
+.mm-dropdown-toggle::after {
+	content: "";
+	background-image: url('../img/chevron-down-solid.svg');
+	background-repeat: no-repeat;
+	padding: 5px;
+	display: inline-block;
+	margin-left: 0.255em;
+	vertical-align: center;
+}
+/* COLORS */
+.mm-bg-1 {
+	background-color: #363636;
+}
