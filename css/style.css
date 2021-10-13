@@ -28,14 +28,41 @@ li {
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	padding-top: 400px ;
-	padding-bottom:100px ;
+	padding-top: 330px ;
+	padding-bottom:70px ;
 }
-
+.mm-img-banner-list {
+	width: 100%;
+	max-width: 200px;
+	border-radius: 0.8rem;
+	padding: 2px;
+	border: 2px solid #0072CE;
+}
+.mm-img-device {
+	width: 100%;
+	padding: 2px;
+}
+.mm-img-device-list {
+	width: 70%;
+	padding: 2px;
+}
+.mm-hover-line {
+	border-bottom: 2px solid transparent ;
+	opacity: 0.6;
+	transition: linear 0.2s;
+}
+.mm-hover-line:hover {
+	border-bottom: 2px solid #0072CE ;
+	opacity: 1;
+}
 /* COLORS */
 .mm-bg-1 {
 	background-color: #363636;
 }
 .mm-bg-2 {
 	background-color: #CD3D0F;
+}
+/* TEXT COLORS */
+.mm-t-1 {
+	color: #0072CE;
 }
