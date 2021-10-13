@@ -23,7 +23,19 @@ li {
 	margin-left: 0.255em;
 	vertical-align: center;
 }
+.header-banner {
+	background-image: url("../img/jumbo-bg.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	padding-top: 400px ;
+	padding-bottom:100px ;
+}
+
 /* COLORS */
 .mm-bg-1 {
 	background-color: #363636;
+}
+.mm-bg-2 {
+	background-color: #CD3D0F;
 }
