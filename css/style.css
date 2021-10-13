@@ -1,6 +1,9 @@
 li {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+}
 .mm-top-logo {
 	width: 100%;
 	max-width: 85px;
@@ -48,7 +51,6 @@ li {
 }
 .mm-img-device {
 	width: 100%;
-	padding: 2px;
 }
 .mm-img-device-list {
 	width: 70%;
@@ -84,6 +86,10 @@ li {
 .mm-bg-3 {
 	background-color: #1F1F1F;
 }
+.mm-bg-4 {
+	background-color: #BEBCBB;
+}
+
 
 /* TEXT COLORS */
 .mm-t-1 {
