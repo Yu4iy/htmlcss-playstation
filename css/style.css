@@ -1,5 +1,6 @@
-li {
+ul,li {
 	list-style: none;
+	padding: 0;
 }
 a {
 	text-decoration: none;
@@ -42,10 +43,8 @@ a {
 .midle-banner {
 	background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: bottom;
 	background-size: cover;
-	padding-top: 330px ;
-	padding-bottom:70px ;
 }
 .mm-img-banner-list {
 	width: 100%;
@@ -88,7 +87,11 @@ a {
 .social-img {
 	max-width: 120px;
 }
+.it {
+	width: 200px;
+	height: 140px;
 
+}
 
 /* COLORS */
 .mm-bg-1 {
