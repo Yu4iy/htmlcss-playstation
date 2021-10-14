@@ -5,10 +5,8 @@ ul,li {
 a {
 	text-decoration: none;
 }
-.mm-top-logo {
-	width: 100%;
-	max-width: 85px;
-}
+
+
 .mm-btn {
 	padding: 10px 14px;
 	border-radius: 4rem;
@@ -23,6 +21,7 @@ a {
 	border: none;
 	background-color: transparent;
 }
+
 .mm-dropdown-toggle::after {
 	content: "";
 	background-image: url('../img/chevron-down-solid.svg');
@@ -34,6 +33,10 @@ a {
 	
 }
 
+.mm-top-logo {
+	width: 100%;
+	max-width: 85px;
+}
 .header-banner {
 	background-image: url("../img/jumbo-bg.png");
 	background-repeat: no-repeat;
@@ -75,6 +78,7 @@ a {
 	border-bottom: 2px solid #0072CE ;
 	opacity: 1;
 }
+
 
 .mm-hb-img {
 	max-width: 240px;
