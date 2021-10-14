@@ -50,10 +50,12 @@ a {
 	border: 3px solid transparent;
 	transition: linear 0.2s;
 }
-.mm-img-banner-list:hover {
-	border: 3px solid #0072CE;
-}
 
+.mm-img-banner-list:hover {
+	transform: translatey(-5px);
+	border: 3px solid #0072CE;
+
+}
 .mm-img-device-list {
 	width: 70%;
 	padding: 2px;
@@ -113,7 +115,7 @@ a {
 
 /* BUTONS */
 .mm-btn {
-	padding: 6px 10px;
+	padding: 4px 8px;
 	border-radius: 4rem;
 	border: none;
 	transition: linear 0.2s;
