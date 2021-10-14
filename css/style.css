@@ -114,16 +114,15 @@ a {
 
 
 /* BUTONS */
-.mm-btn {
+.mm-btn-v2 {
 	padding: 4px 8px;
 	border-radius: 4rem;
 	border: none;
-	transition: linear 0.2s;
 	border: 3px solid transparent;
 	position: relative;
 }
 /* buton v2. beta */
-.mm-btn:before {
+.mm-btn-v2:before {
 	content: " ";
 	position: absolute;
 	z-index: 5	;
@@ -132,14 +131,28 @@ a {
 	right: 0px;
 	bottom: 0px;
 	border: 3px solid transparent;
+	transition: all linear 0.2s;
 	border-radius: 4rem;
 }
-.mm-btn:hover.mm-btn:before {
+.mm-btn-v2:hover.mm-btn-v2:before {
 	border: 3px solid #fff;
-	transition: linear 0.2;
 
 }
 
+.mm-btn {
+	padding: 4px 8px;
+	border-radius: 4rem;
+	border: none;
+	transition: linear 0.2s;
+	border: 3px solid transparent;
+}
+
+.mm-btn:hover {
+	border: 3px solid #ffffff ;
+}
+.mm-btn-1 {
+	box-shadow: 0 0 0 2px #363636;
+}
 .mm-btn-2 {
 	box-shadow: 0 0 0 2px #CD3D0F;
 }
