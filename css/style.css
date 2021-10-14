@@ -120,13 +120,26 @@ a {
 	border: none;
 	transition: linear 0.2s;
 	border: 3px solid transparent;
+	position: relative;
 }
-.mm-btn:hover {
-	border: 3px solid #ffffff ;
+/* buton v2. beta */
+.mm-btn:before {
+	content: " ";
+	position: absolute;
+	z-index: 5	;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 3px solid transparent;
+	border-radius: 4rem;
 }
-.mm-btn-1 {
-	box-shadow: 0 0 0 2px #363636;
+.mm-btn:hover.mm-btn:before {
+	border: 3px solid #fff;
+	transition: linear 0.2;
+
 }
+
 .mm-btn-2 {
 	box-shadow: 0 0 0 2px #CD3D0F;
 }
