@@ -32,15 +32,24 @@ a {
 	background-position: center top;
 	background-size: cover;
 	padding-top: 230px;
-	max-height: 590px;
+	min-height: 590px;
 	padding-bottom: 50px;
-}
+	overflow: hidden;
+} 
 .midle-banner {
 	background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding: 45px 0 30px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+	transition: linear 0.2s;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: blue;
 }
 .mm-img-banner-list {
 	width: 100%;
@@ -70,14 +79,9 @@ a {
 	opacity: 1;
 }
 .mm-nav {
-	margin-top: 119px;
-	background-color: black;
+	margin-top: 102px;
 }
 
-
-.mm-hb-img {
-	max-width: 240px;
-}
 .mm-mb-img {
 	min-width: 240px;
 }
@@ -97,7 +101,12 @@ a {
 	box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
 	transform: scale(1.06);
 }
-
+.mm-game-h {
+	transition: linear 0.2s;
+}
+.mm-game-h:hover {
+	transform:translatey(-7px);
+}
 /* COLORS */
 .mm-bg-1 {
 	background-color: #363636;
@@ -151,6 +160,7 @@ a {
 	border: none;
 	transition: linear 0.2s;
 	border: 3px solid transparent;
+	margin: 2px;
 }
 
 .mm-btn:hover {
@@ -180,3 +190,32 @@ a {
 	transition:  linear 0.2s;
 	border: 3px solid #050505 ;
 }
+.mm-hb-img {
+	max-width: 240px;
+}
+.mm-animation {
+	animation: move-txt 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	position: relative;
+}
+@keyframes move-txt {
+	0%   {
+			opacity: 0;
+			transform: translatey(0px);
+	}
+
+	35%  {	
+			opacity: .3;
+			transform: translatey(40px);
+			}
+
+
+	75% {	
+			opacity: .7;
+			transform: translatey(-20px);
+		}
+
+	100% {	
+			opacity: 1;
+			transform: translatey(0);
+		}
+	
